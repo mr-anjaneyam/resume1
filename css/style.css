@@ -484,23 +484,24 @@ to { width: 100% }
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:100px auto;
+	margin:200px auto;
 	margin-bottom:0;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
 	-o-transform:rotate(45deg);
 	transform:rotate(45deg);
-	border-radius:0;
+	border-radius:10px;
 }
 .front-person-img > img{
 	max-width:100%;
 	vertical-align:bottom;
+	scale: 1.41;
 	-webkit-transform:rotate(-45deg) translateY(40px);
 	-moz-transform:rotate(-45deg) translateY(40px);
 	-ms-transform:rotate(-45deg) translateY(40px);
 	-o-transform:rotate(-45deg) translateY(40px);
-	transform:rotate(-45deg) translateY(40px);
+	transform:rotate(-45deg) translateY(0px);
 }
 
 .front-person-titles{
@@ -672,9 +673,12 @@ to { width: 100% }
 }
 .about-person-img{
 	text-align:center;
+	
+	
 }
 .about-person-img > img{
 	max-width:100%;
+	
 }
 .info-list{
 	list-style:none;
@@ -1819,7 +1823,7 @@ body .symp-btn{
 		-moz-transform:rotate(-45deg) translateY(45px);
 		-ms-transform:rotate(-45deg) translateY(45px);
 		-o-transform:rotate(-45deg) translateY(45px);
-		transform:rotate(-45deg) translateY(45px);
+		transform:rotate(-45deg) translateY(0px);
 	}
 	.front-person-links{
 		-webkit-transform:rotate(0deg);
@@ -1917,13 +1921,15 @@ body .symp-btn{
 		margin-top:120px;
 	}
 	.front-person-img > img{
+		scale: 1.41;
 		-webkit-transform:rotate(-45deg) translateY(45px);
 		-moz-transform:rotate(-45deg) translateY(45px);
 		-ms-transform:rotate(-45deg) translateY(45px);
 		-o-transform:rotate(-45deg) translateY(45px);
-		transform:rotate(-45deg) translateY(100px);
+		transform:rotate(-45deg) translateY(41px);
 		position:absolute;
 		bottom:0;
 		left:-40px;
+		top: -40px;
 	}
 }
