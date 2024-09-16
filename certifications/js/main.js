@@ -172,19 +172,37 @@
 	};
 
 
+    // Function to generate HTML content dynamically
+    function loadCertificates() {
+        const container = document.querySelector('.fh5co-post-entry');
+        certificates.forEach(cert => {
+            const article = document.createElement('article');
+            article.className = 'col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box';
+            
+            article.innerHTML = `
+                <figure>
+                    <img src="${cert.image}" alt="${cert.altText}" class="img-responsive" draggable="false">
+                </figure>
+                <span class="fh5co-meta"><a href="${cert.providerLink}" target="_blank">${cert.provider}</a></span>
+                <h2 class="fh5co-article-title"><a href="${cert.verification}" target="_blank">${cert.title}</a></h2>
+                <span class="fh5co-meta fh5co-date">${cert.date}</span>
+            `;
+            
+            container.appendChild(article);
+			
+        });
+    }
+	
 	// Document on load.
 	$(function(){
 
 		mobileMenuOutsideClick();
 		burgerMenu();
 		scrolledWindow();
-		
-		// Animations
+		loadCertificates();
 		contentWayPoint();
-		
-		
 
 	});
-
-
+	
+	
 }());
