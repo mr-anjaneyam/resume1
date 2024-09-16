@@ -798,7 +798,6 @@ figure figcaption {
 } */
 
 .close-button {
-  
   width: 75px;
   height: 75px;
   border-radius: 10px;
@@ -816,18 +815,42 @@ figure figcaption {
   height: 2px;
   background: black;
   position: absolute;
-  top: 48%;
-  left: 22%;
-  transform: rotate(-45deg);
-  transition: 0.3s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .close-button:after {
-  transform: rotate(45deg);
-  transition: 0.3s;
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.close-button:hover:before,
-.close-button:hover:after {
-  transform: rotate(180deg);
+/* Adding arrowhead and swirl effect */
+.close-button:hover:before {
+  transform: translate(-50%, -50%) rotate(180deg);
+  background: black;
 }
+
+.close-button:hover:after {
+  width: 70%;
+  height: 2px;
+  transform: translate(-50%, -50%) rotate(180deg);
+  background: transparent;
+}
+
+.close-button:hover {
+  position: absolute;
+}
+
+.close-button:hover:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-160%, -50%) rotate(360deg) scale(1.5);
+}
+
