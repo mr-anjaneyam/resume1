@@ -318,7 +318,109 @@ const certificates = [
         provider: 'IBM',
         providerLink: 'https://skillsbuild.org/college-students/digital-credentials/journey-to-cloud-envisioning-your-solution',
         date: 'June 8th, 2024'
+    },
+    {
+        // 9 1
+        image: 'images/zscaler-cyber-fundamentals.jpg',
+        altText: 'zscaler-cyber-fundamentals',
+        verification: 'https://verify.skilljar.com/c/6g57cwc8pajc',
+        title: 'Zscaler Cybersecurity Fundamentals Associate Course',
+        provider: 'Zscaler',
+        providerLink: "https://www.zscaler.com/zscaler-academy",
+        date: 'September 5th, 2024'
+    },
+    {
+        // 9 2
+        image: 'images/zscaler-edu-102.jpg',
+        altText: 'zscaler-edu-102',
+        verification: 'https://verify.skilljar.com/c/7rw64oqzc6na',
+        title: 'Fundamentals of Cybersecurity (EDU-102)',
+        provider: 'Zscaler',
+        providerLink: 'https://www.zscaler.com/zscaler-academy',
+        date: 'September 5th, 2024'
+    },
+    {
+        // 9 3
+        image: 'images/complete-js.jpg',
+        altText: 'udemy-complete-js',
+        verification: 'https://ude.my/UC-c6910a8c-d7ed-4a93-a45d-0132c4ef0c1b/',
+        title: 'Complete JAVASCRIPT with HTML5,CSS3 from zero to Expert-2024',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'July 28th, 2023'
+    },
+    {
+        // 9 4
+        image: 'images/html-beginner.jpg',
+        altText: 'udemy-html-beginner',
+        verification: 'https://ude.my/UC-445d8a8a-064e-47d2-82d4-06c8435ec388/',
+        title: 'Learn HTML - For Beginners',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'December 17th, 2023'
+    },
+    {
+        // 10 1
+        image: 'images/cpp-beginner.jpg',
+        altText: 'udemy-cpp-beginner',
+        verification: 'https://ude.my/UC-91e3e0dd-4ddf-45b6-a1ee-dd927adab7b9/',
+        title: 'The Ultimate C++ Beginner Course',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'July 17th, 2023'
+    },
+    {
+        // 10 2
+        image: 'images/cpp-training.jpg',
+        altText: 'udemy-cpp-training',
+        verification: 'https://ude.my/UC-62628490-e3ef-4958-961e-e17de057876e/',
+        title: 'C++ Complete Training Course for C++ Beginners',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'July 19th, 2023'
+    },
+    {
+        // 10 3
+        image: 'images/java-beginner.jpg',
+        altText: 'udemy-java-beginner',
+        verification: 'https://ude.my/UC-c5d82376-c80d-4a5d-814f-b882e791be3a/',
+        title: 'Java for Beginners - Learn all the Basics of Java',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'July 28th, 2023'
+    },
+    {
+        // 10 4
+        image: 'images/java-intro.jpg',
+        altText: 'udemy-java-intro',
+        verification: 'https://ude.my/UC-494ed70a-dc7e-46bf-ab2b-feb8700fb68c/',
+        title: 'Introduction to Java Programming',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'July 28th, 2023'
+    },
+    {
+        // 11 1
+        image: 'images/python-oops.jpg',
+        altText: 'udemy-python_OOPS',
+        verification: 'https://ude.my/UC-cf8db7b7-c35d-4116-9580-15451e198adc/',
+        title: 'Python: Object Oriented Programming',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'July 17th, 2023'
+    },
+    {
+        // 11 2
+        image: 'images/photoshop.jpg',
+        altText: 'udemy-photoshop',
+        verification: 'https://ude.my/UC-2733637d-fa30-4823-adb3-de88e429ceac/',
+        title: 'Adobe Photoshop CC- Basic Photoshop training',
+        provider: 'Udemy',
+        providerLink: 'https://www.udemy.com/',
+        date: 'September 14th, 2024'
     }
+
+
 
     
 ];
