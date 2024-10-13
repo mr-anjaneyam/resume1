@@ -418,6 +418,36 @@ const certificates = [
         provider: 'Udemy',
         providerLink: 'https://www.udemy.com/',
         date: 'September 14th, 2024'
+    },
+    {
+        // 11 3
+        image: 'images/aicte_palo_alto.jpg',
+        altText: 'aicte-palo-alto',
+        verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=06e6e7151881062102b0dbec9347524c',
+        title: 'Cybersecurity Virtual Internship',
+        provider: 'EduSkills - Google',
+        providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
+        date: 'Apr-June, 2024'
+    },
+    {
+        // 11 4
+        image: 'images/aicte_zscaler.jpg',
+        altText: 'aicte-zscaler',
+        verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=5ae3e758bbc375811d6bce9d06379fc9',
+        title: 'Zero Trust Cloud Security Virtual Internship',
+        provider: 'EduSkills - Google',
+        providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
+        date: 'July-September, 2023'
+    },
+    {
+        // 12 1
+        image: 'images/cisco_networking.jpg',
+        altText: 'CISCO_NETWORKING',
+        verification: 'https://www.credly.com/go/L6FZ9krL',
+        title: 'Networking Basics',
+        provider: 'CISCO Networking Academy',
+        providerLink: 'https://www.netacad.com/about-networking-academy',
+        date: 'October 13th, 2024'
     }
 
 
