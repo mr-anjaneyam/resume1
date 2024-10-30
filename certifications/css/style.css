@@ -854,3 +854,19 @@ figure figcaption {
   transform: translate(-160%, -50%) rotate(360deg) scale(1.5);
 }
 
+.notice-box {
+  display: flex;
+  align-items: center;
+  background-color: #d9edf7;
+  color: #31708f;
+  padding: 15px;
+  border: 1px solid #bce8f1;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.notice-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
