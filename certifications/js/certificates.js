@@ -448,6 +448,16 @@ const certificates = [
         provider: 'CISCO Networking Academy',
         providerLink: 'https://www.netacad.com/about-networking-academy',
         date: 'October 13th, 2024'
+    },
+    {
+        // 12 2
+        image: 'images/wipro_jfs.png',
+        altText: "Java_Fullstack_Wipro",
+        verification: "https://cert.diceid.com/cid/nuTM4rT8is?verify=true",
+        title: 'Java Full Stack',
+        provider: 'Talentnext - Wipro',
+        providerLink: 'https://talentnext.wipro.com/',
+        date: 'May-Sep, 2024'
     }
 
 
