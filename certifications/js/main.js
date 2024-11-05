@@ -183,7 +183,7 @@
 			
 			article.innerHTML = `
 				<figure>
-					<img src="${cert.image}" alt="${cert.altText}" class="img-responsive" draggable="false">
+					<img src="${cert.thumb}" alt="${cert.altText}" class="img-responsive" draggable="false">
 				</figure>
 				<span class="fh5co-meta"><a href="${cert.providerLink}" target="_blank">${cert.provider}</a></span>
 				<h2 class="fh5co-article-title"><a href="${cert.verification}" target="_blank">${cert.title}</a></h2>

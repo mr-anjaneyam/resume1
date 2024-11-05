@@ -1,6 +1,7 @@
 const certificates = [
     {
         // 1 1
+        thumb: 'thumbnails/nptel_dsa.jpg',
         image: 'images/nptel_dsa.jpg',
         altText: 'NPTEL_DSA',
         verification: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS95S4570276210079882',
@@ -11,6 +12,7 @@ const certificates = [
     },
     {
         // 1 2
+        thumb: 'thumbnails/nptel_cp_ip.jpg',
         image: 'images/nptel_cp_ip.jpg',
         altText: 'NPTEL_CPIP',
         verification: 'https://nptel.ac.in/noc/E_Certificate/NPTEL24CS19S35740198230591343',
@@ -21,6 +23,7 @@ const certificates = [
     },
     {
         // 1 3
+        thumb: 'thumbnails/cisco_python_essentials1.jpg',
         image: 'images/cisco_python_essentials1.jpg',
         altText: 'CISCO_PE1',
         verification: 'https://www.credly.com/go/fPXNeMAp',
@@ -31,6 +34,7 @@ const certificates = [
     },
     {
         // 1 4
+        thumb: 'thumbnails/cisco_python_essentials2.jpg',
         image: 'images/cisco_python_essentials2.jpg',
         altText: 'CISCO_PE2',
         verification: 'https://www.credly.com/go/y7eJZnLV',
@@ -41,6 +45,7 @@ const certificates = [
     },
     {
         // 2 1
+        thumb: 'thumbnails/android-developer.jpg',
         image: 'images/android-developer.jpg',
         altText: 'AndroidDeveloper',
         verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=b074028e2fc6db61ba312fd96217f57b',
@@ -51,6 +56,7 @@ const certificates = [
     },
     {
         // 2 2
+        thumb: 'thumbnails/InternPe web_dev.png',
         image: 'images/InternPe web_dev.png',
         altText: 'InternPe',
         verification: '#',
@@ -61,6 +67,7 @@ const certificates = [
     },
     {
         // 2 3
+        thumb: 'thumbnails/google_analytics.jpg',
         image: 'images/google_analytics.jpg',
         altText: 'Google Analytics',
         verification: 'https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification?sid=defef580-7629-47d4-b5ed-b9c8743a151e&sid_i=4',
@@ -71,6 +78,7 @@ const certificates = [
     },
     {
         // 2 4
+        thumb: 'thumbnails/wd101.jpg',
         image: 'images/wd101.jpg',
         altText: 'wd101',
         verification: 'https://www.pupilfirst.school/c/240307-5VA2QM',
@@ -81,6 +89,7 @@ const certificates = [
     },
     {
         // 3 1
+        thumb: 'thumbnails/TechnoHacks web_dev.png',
         image: 'images/TechnoHacks web_dev.png',
         altText: 'TechnoHacks_webdev',
         verification: 'https://technohacks.co.in/',
@@ -91,6 +100,7 @@ const certificates = [
     },
     {
         // 3 2
+        thumb: 'thumbnails/TechnoHacks cs&eh.png',
         image: 'images/TechnoHacks cs&eh.png',
         altText: 'TechnoHacks_cseh',
         verification: 'https://technohacks.co.in/',
@@ -101,6 +111,7 @@ const certificates = [
     },
     {
         // 3 3
+        thumb: 'thumbnails/Oasis_webdev.jpg',
         image: 'images/Oasis_webdev.jpg',
         altText: 'Oasis_webdev',
         verification: 'https://oasisinfobyte.com/validation/validated.html',
@@ -111,6 +122,7 @@ const certificates = [
     },
     {
         // 3 4
+        thumb: 'thumbnails/codsoft_webdev.jpg',
         image: 'images/codsoft_webdev.jpg',
         altText: 'codsoft_webdev',
         verification: 'https://codsoft.co.in/',
@@ -121,6 +133,7 @@ const certificates = [
     },
     {
         // 4 1
+        thumb: 'thumbnails/coursera_java_fundamentals.jpg',
         image: 'images/coursera_java_fundamentals.jpg',
         altText: 'coursera_java_fundamentals',
         verification: 'https://www.coursera.org/account/accomplishments/verify/GAE44DA2YEXL',
@@ -131,6 +144,7 @@ const certificates = [
     },
     {
         // 4 2
+        thumb: 'thumbnails/forage_accenture.jpg',
         image: 'images/forage_accenture.jpg',
         altText: 'forage_accenture',
         verification: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_kKBau2ZFTa4G8MJ4r_1714984118299_completion_certificate.pdf',
@@ -141,6 +155,7 @@ const certificates = [
     },
     {
         // 4 3
+        thumb: 'thumbnails/forage_jpmc.jpg',
         image: 'images/forage_jpmc.jpg',
         altText: 'forage_jpmc',
         verification: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_kKBau2ZFTa4G8MJ4r_1715349728388_completion_certificate.pdf',
@@ -151,6 +166,7 @@ const certificates = [
     },
     {
         // 4 4
+        thumb: 'thumbnails/skillup_java.jpg',
         image: 'images/skillup_java.jpg',
         altText: 'skillup_java',
         verification: '#',
@@ -161,6 +177,7 @@ const certificates = [
     },
     {
         // 5 1
+        thumb: 'thumbnails/hackerrank_problemsolving.png',
         image: 'images/hackerrank_problemsolving.png',
         altText: 'hackerrank_problemsolving',
         verification: 'https://www.hackerrank.com/certificates/9e69782201eb',
@@ -171,6 +188,7 @@ const certificates = [
     },
     {
         // 5 2
+        thumb: 'thumbnails/hackerrank_css.png',
         image: 'images/hackerrank_css.png',
         altText: 'hackerrank_css',
         verification: 'https://www.hackerrank.com/certificates/bba412a41333',
@@ -181,6 +199,7 @@ const certificates = [
     },
     {
         // 5 3
+        thumb: 'thumbnails/devtown_py_ai.jpg',
         image: 'images/devtown_py_ai.jpg',
         altText: 'devtown_py_ai',
         verification: 'https://cert.devtown.in/verify/Zw3fge',
@@ -191,6 +210,7 @@ const certificates = [
     },
     {
         // 5 4
+        thumb: 'thumbnails/NSIC AWS.jpg',
         image: 'images/NSIC AWS.jpg',
         altText: 'nsic_aws',
         verification: '#',
@@ -201,6 +221,7 @@ const certificates = [
     },
     {
         // 6 1
+        thumb: 'thumbnails/infy_dsa.jpg',
         image: 'images/infy_dsa.jpg',
         altText: 'infosys_DSA',
         verification: 'https://verify.onwingspan.com/',
@@ -211,6 +232,7 @@ const certificates = [
     },
     {
         // 6 2
+        thumb: 'thumbnails/infy_java.jpg',
         image: 'images/infy_java.jpg',
         altText: 'infosys_DSA',
         verification: 'https://verify.onwingspan.com/',
@@ -221,6 +243,7 @@ const certificates = [
     },
     {
         // 6 3
+        thumb: 'thumbnails/infy_learn_python.jpg',
         image: 'images/infy_learn_python.jpg',
         altText: 'infosys_DSA',
         verification: 'https://verify.onwingspan.com/',
@@ -231,6 +254,7 @@ const certificates = [
     },
     {
         // 6 4
+        thumb: 'thumbnails/GL_Java.jpg',
         image: 'images/GL_Java.jpg',
         altText: 'java_GL',
         verification: 'https://www.mygreatlearning.com/certificate/BJAGBFHO',
@@ -241,6 +265,7 @@ const certificates = [
     },
     {
         // 7 1
+        thumb: 'thumbnails/GL_DS_C.jpg',
         image: 'images/GL_DS_C.jpg',
         altText: 'DS_in_C',
         verification: 'https://www.mygreatlearning.com/certificate/BNTOKNVZ',
@@ -251,6 +276,7 @@ const certificates = [
     },
     {
         // 7 2
+        thumb: 'thumbnails/GL_DSA_Java.jpg',
         image: 'images/GL_DSA_Java.jpg',
         altText: 'dsa_java',
         verification: 'https://www.mygreatlearning.com/certificate/INODXADO',
@@ -261,6 +287,7 @@ const certificates = [
     },
     {
         // 7 3
+        thumb: 'thumbnails/GL_Oracle_SQL.jpg',
         image: 'images/GL_Oracle_SQL.jpg',
         altText: 'oracle_sql',
         verification: 'https://www.mygreatlearning.com/certificate/DELEXEOB',
@@ -271,6 +298,7 @@ const certificates = [
     },
     {
         // 7 4
+        thumb: 'thumbnails/GL_HTML.jpg',
         image: 'images/GL_HTML.jpg',
         altText: 'frontend_html',
         verification: 'https://www.mygreatlearning.com/certificate/RKUYQPDF',
@@ -281,6 +309,7 @@ const certificates = [
     },
     {
         // 8 1
+        thumb: 'thumbnails/cisco_cyber.jpg',
         image: 'images/cisco_cyber.jpg',
         altText: 'Cisco_cybersecurity',
         verification: 'https://www.credly.com/go/J1oi0Sbu',
@@ -291,6 +320,7 @@ const certificates = [
     },
     {
         // 8 2
+        thumb: 'thumbnails/IBM_AI.jpg',
         image: 'images/IBM_AI.jpg',
         altText: 'IBM_AI',
         verification: 'https://www.credly.com/badges/dac08d30-b986-4721-91ff-02e73e3ce77f/print',
@@ -301,6 +331,7 @@ const certificates = [
     },
     {
         // 8 3
+        thumb: 'thumbnails/IBM_enterpriseAI.jpg',
         image: 'images/IBM_enterpriseAI.jpg',
         altText: 'IBM_Enterprise_AI',
         verification: 'https://www.credly.com/badges/e22f846a-5c12-41f9-91c9-7d32ad01fedb/print',
@@ -311,6 +342,7 @@ const certificates = [
     },
     {
         // 8 4
+        thumb: 'thumbnails/IBM_j2c.jpg',
         image: 'images/IBM_j2c.jpg',
         altText: 'IBM_J2C',
         verification: 'https://www.credly.com/go/C1aQb2oj',
@@ -321,6 +353,7 @@ const certificates = [
     },
     {
         // 9 1
+        thumb: 'thumbnails/zscaler-cyber-fundamentals.jpg',
         image: 'images/zscaler-cyber-fundamentals.jpg',
         altText: 'zscaler-cyber-fundamentals',
         verification: 'https://verify.skilljar.com/c/6g57cwc8pajc',
@@ -331,6 +364,7 @@ const certificates = [
     },
     {
         // 9 2
+        thumb: 'thumbnails/zscaler-edu-102.jpg',
         image: 'images/zscaler-edu-102.jpg',
         altText: 'zscaler-edu-102',
         verification: 'https://verify.skilljar.com/c/7rw64oqzc6na',
@@ -341,6 +375,7 @@ const certificates = [
     },
     {
         // 9 3
+        thumb: 'thumbnails/complete-js.jpg',
         image: 'images/complete-js.jpg',
         altText: 'udemy-complete-js',
         verification: 'https://ude.my/UC-c6910a8c-d7ed-4a93-a45d-0132c4ef0c1b/',
@@ -351,6 +386,7 @@ const certificates = [
     },
     {
         // 9 4
+        thumb: 'thumbnails/html-beginner.jpg',
         image: 'images/html-beginner.jpg',
         altText: 'udemy-html-beginner',
         verification: 'https://ude.my/UC-445d8a8a-064e-47d2-82d4-06c8435ec388/',
@@ -361,6 +397,7 @@ const certificates = [
     },
     {
         // 10 1
+        thumb: 'thumbnails/cpp-beginner.jpg',
         image: 'images/cpp-beginner.jpg',
         altText: 'udemy-cpp-beginner',
         verification: 'https://ude.my/UC-91e3e0dd-4ddf-45b6-a1ee-dd927adab7b9/',
@@ -371,6 +408,7 @@ const certificates = [
     },
     {
         // 10 2
+        thumb: 'thumbnails/cpp-training.jpg',
         image: 'images/cpp-training.jpg',
         altText: 'udemy-cpp-training',
         verification: 'https://ude.my/UC-62628490-e3ef-4958-961e-e17de057876e/',
@@ -381,6 +419,7 @@ const certificates = [
     },
     {
         // 10 3
+        thumb: 'thumbnails/java-beginner.jpg',
         image: 'images/java-beginner.jpg',
         altText: 'udemy-java-beginner',
         verification: 'https://ude.my/UC-c5d82376-c80d-4a5d-814f-b882e791be3a/',
@@ -391,6 +430,7 @@ const certificates = [
     },
     {
         // 10 4
+        thumb: 'thumbnails/java-intro.jpg',
         image: 'images/java-intro.jpg',
         altText: 'udemy-java-intro',
         verification: 'https://ude.my/UC-494ed70a-dc7e-46bf-ab2b-feb8700fb68c/',
@@ -401,6 +441,7 @@ const certificates = [
     },
     {
         // 11 1
+        thumb: 'thumbnails/python-oops.jpg',
         image: 'images/python-oops.jpg',
         altText: 'udemy-python_OOPS',
         verification: 'https://ude.my/UC-cf8db7b7-c35d-4116-9580-15451e198adc/',
@@ -411,6 +452,7 @@ const certificates = [
     },
     {
         // 11 2
+        thumb: 'thumbnails/photoshop.jpg',
         image: 'images/photoshop.jpg',
         altText: 'udemy-photoshop',
         verification: 'https://ude.my/UC-2733637d-fa30-4823-adb3-de88e429ceac/',
@@ -421,6 +463,7 @@ const certificates = [
     },
     {
         // 11 3
+        thumb: 'thumbnails/aicte_palo_alto.jpg',
         image: 'images/aicte_palo_alto.jpg',
         altText: 'aicte-palo-alto',
         verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=06e6e7151881062102b0dbec9347524c',
@@ -431,6 +474,7 @@ const certificates = [
     },
     {
         // 11 4
+        thumb: 'thumbnails/aicte_zscaler.jpg',
         image: 'images/aicte_zscaler.jpg',
         altText: 'aicte-zscaler',
         verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=5ae3e758bbc375811d6bce9d06379fc9',
@@ -441,6 +485,7 @@ const certificates = [
     },
     {
         // 12 1
+        thumb: 'thumbnails/cisco_networking.jpg',
         image: 'images/cisco_networking.jpg',
         altText: 'CISCO_NETWORKING',
         verification: 'https://www.credly.com/go/L6FZ9krL',
@@ -448,9 +493,5 @@ const certificates = [
         provider: 'CISCO Networking Academy',
         providerLink: 'https://www.netacad.com/about-networking-academy',
         date: 'October 13th, 2024'
-    }
-
-
-
-    
+    }    
 ];
