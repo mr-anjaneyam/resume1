@@ -177,22 +177,23 @@
 		const container = document.querySelector('.fh5co-post-entry');
 		
 		certificates.forEach((cert, index) => {
-			// Create the article element for each certificate
 			const article = document.createElement('article');
 			article.className = 'col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box';
 			
 			article.innerHTML = `
 				<figure>
-					<img src="${cert.image}" alt="${cert.altText}" class="img-responsive" draggable="false">
+					<img src="${cert.thumb}" alt="${cert.altText}" class="img-responsive cert-thumbnail" draggable="false">
 				</figure>
 				<span class="fh5co-meta"><a href="${cert.providerLink}" target="_blank">${cert.provider}</a></span>
 				<h2 class="fh5co-article-title"><a href="${cert.verification}" target="_blank">${cert.title}</a></h2>
 				<span class="fh5co-meta fh5co-date">${cert.date}</span>
 			`;
 			
+			// Add click event listener to show popup
+			article.querySelector('.cert-thumbnail').addEventListener('click', () => showPopup(cert));
+			
 			container.appendChild(article);
 			
-			// Add clearfix after every 4th element for larger screens (visible-lg-block)
 			if ((index + 1) % 4 === 0) {
 				const clearfixDiv = document.createElement('div');
 				clearfixDiv.className = 'clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block';
@@ -201,6 +202,28 @@
 		});
 	}
 	
+	function showPopup(cert) {
+		const popupOverlay = document.getElementById('popup-overlay');
+		const popupImage = document.getElementById('popup-image');
+		const downloadBtn = document.getElementById('download-btn');
+		const verifyLink = document.getElementById('verify-link');
+		
+		// Set image, verify, and download links
+		popupImage.src = cert.image;
+		verifyLink.href = cert.verification;
+		downloadBtn.onclick = () => {
+			window.open(cert.image, '_blank'); // Open image in new tab as download
+		};
+	
+		// Display the popup
+		popupOverlay.style.display = 'flex';
+	}
+
+	document.getElementById('popup-overlay').addEventListener('click', (e) => {
+		if (e.target === document.getElementById('popup-overlay') || e.target.id === 'popup-close') {
+			document.getElementById('popup-overlay').style.display = 'none';
+		}
+	});
 	
 	// Document on load.
 	$(function(){
