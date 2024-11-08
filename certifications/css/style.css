@@ -856,6 +856,8 @@ figure figcaption {
 /* Popup Background Overlay */
 .popup-overlay {
   display: none;
+  align-items: center;   /* Vertical centering */
+  justify-content: center; /* Horizontal centering */   
   position: fixed;
   top: 0;
   left: 0;
@@ -870,12 +872,12 @@ figure figcaption {
 .popup-content {
   position: relative;
   max-width: 65%;
-  max-height: 90vh; /* Ensures the popup doesn’t exceed 90% of viewport height */
+  max-height: 95vh; /* Ensures the popup doesn’t exceed 90% of viewport height */
   margin: auto;
-  padding: 40px;
-  border-radius: 8px;
-  background: #17171798;
-  border-color: #262626;
+  padding: 25px 0 25px 0;
+  border-radius: 15px;
+  background: #17171737;
+  border-color: #2626269a;
   border-width: 1px;
   border-style: solid;
   text-align: center;
@@ -895,12 +897,13 @@ figure figcaption {
 .popup-image {
   max-width: 90%;
   height: auto;
+  border-radius: 5px;
 }
 
 /* Close Button */
 .popup-close {
   position: fixed;
-  top: 15px;
+  top: 3%;
   right: 15%;
   cursor: pointer;
   font-size: 40px;
@@ -913,7 +916,7 @@ figure figcaption {
   display: flex;
   justify-content: space-around;
   gap: 10px;
-  padding: 10px 0;
+  padding: 25px 0px 0px 0px;
   /* background: #ffffff; */
   position: sticky;
   bottom: 0;
@@ -926,7 +929,7 @@ figure figcaption {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   text-decoration: none;
   cursor: pointer;
 }
