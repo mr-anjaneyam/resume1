@@ -216,7 +216,7 @@
 		};
 	
 		// Display the popup
-		popupOverlay.style.display = 'block';
+		popupOverlay.style.display = 'flex';
 	}
 
 	document.getElementById('popup-overlay').addEventListener('click', (e) => {
