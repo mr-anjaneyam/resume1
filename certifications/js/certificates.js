@@ -22,6 +22,28 @@ const certificates = [
         date: 'Jan-Apr, 2024'
     },
     {
+        // 9 1
+        thumb: 'thumbnails/zscaler-cyber-fundamentals.jpg',
+        image: 'images/zscaler-cyber-fundamentals.jpg',
+        altText: 'zscaler-cyber-fundamentals',
+        verification: 'https://verify.skilljar.com/c/6g57cwc8pajc',
+        title: 'Zscaler Cybersecurity Fundamentals Associate Course',
+        provider: 'Zscaler',
+        providerLink: "https://www.zscaler.com/zscaler-academy",
+        date: 'September 5th, 2024'
+    },
+    {
+        // 9 2
+        thumb: 'thumbnails/zscaler-edu-102.jpg',
+        image: 'images/zscaler-edu-102.jpg',
+        altText: 'zscaler-edu-102',
+        verification: 'https://verify.skilljar.com/c/7rw64oqzc6na',
+        title: 'Fundamentals of Cybersecurity (EDU-102)',
+        provider: 'Zscaler',
+        providerLink: 'https://www.zscaler.com/zscaler-academy',
+        date: 'September 5th, 2024'
+    },
+    {
         // 1 3
         thumb: 'thumbnails/cisco_python_essentials1.jpg',
         image: 'images/cisco_python_essentials1.jpg',
@@ -44,6 +66,28 @@ const certificates = [
         date: 'Oct 9th, 2023'
     },
     {
+        // 12 1
+        thumb: 'thumbnails/cisco_networking.jpg',
+        image: 'images/cisco_networking.jpg',
+        altText: 'CISCO_NETWORKING',
+        verification: 'https://www.credly.com/go/L6FZ9krL',
+        title: 'Networking Basics',
+        provider: 'CISCO Networking Academy',
+        providerLink: 'https://www.netacad.com/about-networking-academy',
+        date: 'October 13th, 2024'
+    },
+    {
+        // 8 1
+        thumb: 'thumbnails/cisco_cyber.jpg',
+        image: 'images/cisco_cyber.jpg',
+        altText: 'Cisco_cybersecurity',
+        verification: 'https://www.credly.com/go/J1oi0Sbu',
+        title: 'Introduction to Cyber Security',
+        provider: 'CISCO Networking Academy',
+        providerLink: 'https://www.netacad.com/about-networking-academy',
+        date: 'May 29th, 2024'
+    },
+    {
         // 2 1
         thumb: 'thumbnails/android-developer.jpg',
         image: 'images/android-developer.jpg',
@@ -55,15 +99,26 @@ const certificates = [
         date: 'Jan-Mar, 2024'
     },
     {
-        // 2 2
-        thumb: 'thumbnails/InternPe web_dev.png',
-        image: 'images/InternPe web_dev.png',
-        altText: 'InternPe',
-        verification: '#',
-        title: 'Web Development',
-        provider: 'InternPe',
-        providerLink: 'https://internpe.in/about.html',
-        date: 'Oct 16th - Nov 12th, 2023'
+        // 11 3
+        thumb: 'thumbnails/aicte_palo_alto.jpg',
+        image: 'images/aicte_palo_alto.jpg',
+        altText: 'aicte-palo-alto',
+        verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=06e6e7151881062102b0dbec9347524c',
+        title: 'Cybersecurity Virtual Internship',
+        provider: 'EduSkills - Google',
+        providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
+        date: 'Apr-June, 2024'
+    },
+    {
+        // 11 4
+        thumb: 'thumbnails/aicte_zscaler.jpg',
+        image: 'images/aicte_zscaler.jpg',
+        altText: 'aicte-zscaler',
+        verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=5ae3e758bbc375811d6bce9d06379fc9',
+        title: 'Zero Trust Cloud Security Virtual Internship',
+        provider: 'EduSkills - Google',
+        providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
+        date: 'July-September, 2023'
     },
     {
         // 2 3
@@ -76,17 +131,17 @@ const certificates = [
         providerLink: 'https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification?sid=defef580-7629-47d4-b5ed-b9c8743a151e&sid_i=4',
         date: 'May 8th, 2024'
     },
-    {
-        // 2 4
-        thumb: 'thumbnails/wd101.jpg',
-        image: 'images/wd101.jpg',
-        altText: 'wd101',
-        verification: 'https://www.pupilfirst.school/c/240307-5VA2QM',
-        title: 'Web Development 101 - Getting Started with JavaScript',
-        provider: 'pupilfirst',
-        providerLink: 'https://www.pupilfirst.org/#philosophy-section',
-        date: 'Mar 8th, 2024'
-    },
+    // {
+    //     // 2 2
+    //     thumb: 'thumbnails/InternPe web_dev.png',
+    //     image: 'images/InternPe web_dev.png',
+    //     altText: 'InternPe',
+    //     verification: '#',
+    //     title: 'Web Development',
+    //     provider: 'InternPe',
+    //     providerLink: 'https://internpe.in/about.html',
+    //     date: 'Oct 16th - Nov 12th, 2023'
+    // },
     {
         // 3 1
         thumb: 'thumbnails/TechnoHacks web_dev.png',
@@ -132,17 +187,6 @@ const certificates = [
         date: 'Oct 10th - Nov 10th, 2023'
     },
     {
-        // 4 1
-        thumb: 'thumbnails/coursera_java_fundamentals.jpg',
-        image: 'images/coursera_java_fundamentals.jpg',
-        altText: 'coursera_java_fundamentals',
-        verification: 'https://www.coursera.org/account/accomplishments/verify/GAE44DA2YEXL',
-        title: 'Java Fundamentals',
-        provider: 'Coursera',
-        providerLink: 'https://www.coursera.org/',
-        date: 'May 27th, 2023'
-    },
-    {
         // 4 2
         thumb: 'thumbnails/forage_accenture.jpg',
         image: 'images/forage_accenture.jpg',
@@ -165,15 +209,26 @@ const certificates = [
         date: 'May 10th, 2024'
     },
     {
-        // 4 4
-        thumb: 'thumbnails/skillup_java.jpg',
-        image: 'images/skillup_java.jpg',
-        altText: 'skillup_java',
+        // 2 4
+        thumb: 'thumbnails/wd101.jpg',
+        image: 'images/wd101.jpg',
+        altText: 'wd101',
+        verification: 'https://www.pupilfirst.school/c/240307-5VA2QM',
+        title: 'Web Development 101 - Getting Started with JavaScript',
+        provider: 'pupilfirst',
+        providerLink: 'https://www.pupilfirst.org/#philosophy-section',
+        date: 'Mar 8th, 2024'
+    },
+    {
+        // 5 4
+        thumb: 'thumbnails/NSIC AWS.jpg',
+        image: 'images/NSIC AWS.jpg',
+        altText: 'nsic_aws',
         verification: '#',
-        title: 'Java Certification Course',
-        provider: 'Simplilearn',
-        providerLink: 'https://www.simplilearn.com/skillup-free-online-courses',
-        date: 'Nov 27th, 2022'
+        title: 'Amazon Web Services',
+        provider: 'NSIC',
+        providerLink: 'https://www.nsic.co.in/Corporate/AboutUs',
+        date: 'Jul 17th-31st, 2023'
     },
     {
         // 5 1
@@ -198,6 +253,28 @@ const certificates = [
         date: 'Mar 23rd, 2024'
     },
     {
+        // 4 1
+        thumb: 'thumbnails/coursera_java_fundamentals.jpg',
+        image: 'images/coursera_java_fundamentals.jpg',
+        altText: 'coursera_java_fundamentals',
+        verification: 'https://www.coursera.org/account/accomplishments/verify/GAE44DA2YEXL',
+        title: 'Java Fundamentals',
+        provider: 'Coursera',
+        providerLink: 'https://www.coursera.org/',
+        date: 'May 27th, 2023'
+    },
+    {
+        // 4 4
+        thumb: 'thumbnails/skillup_java.jpg',
+        image: 'images/skillup_java.jpg',
+        altText: 'skillup_java',
+        verification: '#',
+        title: 'Java Certification Course',
+        provider: 'Simplilearn',
+        providerLink: 'https://www.simplilearn.com/skillup-free-online-courses',
+        date: 'Nov 27th, 2022'
+    },
+    {
         // 5 3
         thumb: 'thumbnails/devtown_py_ai.jpg',
         image: 'images/devtown_py_ai.jpg',
@@ -207,17 +284,6 @@ const certificates = [
         provider: 'DevTown',
         providerLink: 'https://www.devtown.in/about-us',
         date: 'Dec 1st, 2023'
-    },
-    {
-        // 5 4
-        thumb: 'thumbnails/NSIC AWS.jpg',
-        image: 'images/NSIC AWS.jpg',
-        altText: 'nsic_aws',
-        verification: '#',
-        title: 'Amazon Web Services',
-        provider: 'NSIC',
-        providerLink: 'https://www.nsic.co.in/Corporate/AboutUs',
-        date: 'Jul 17th-31st, 2023'
     },
     {
         // 6 1
@@ -308,17 +374,6 @@ const certificates = [
         date: 'October, 2023'
     },
     {
-        // 8 1
-        thumb: 'thumbnails/cisco_cyber.jpg',
-        image: 'images/cisco_cyber.jpg',
-        altText: 'Cisco_cybersecurity',
-        verification: 'https://www.credly.com/go/J1oi0Sbu',
-        title: 'Introduction to Cyber Security',
-        provider: 'CISCO Networking Academy',
-        providerLink: 'https://www.netacad.com/about-networking-academy',
-        date: 'May 29th, 2024'
-    },
-    {
         // 8 2
         thumb: 'thumbnails/IBM_AI.jpg',
         image: 'images/IBM_AI.jpg',
@@ -352,34 +407,12 @@ const certificates = [
         date: 'June 8th, 2024'
     },
     {
-        // 9 1
-        thumb: 'thumbnails/zscaler-cyber-fundamentals.jpg',
-        image: 'images/zscaler-cyber-fundamentals.jpg',
-        altText: 'zscaler-cyber-fundamentals',
-        verification: 'https://verify.skilljar.com/c/6g57cwc8pajc',
-        title: 'Zscaler Cybersecurity Fundamentals Associate Course',
-        provider: 'Zscaler',
-        providerLink: "https://www.zscaler.com/zscaler-academy",
-        date: 'September 5th, 2024'
-    },
-    {
-        // 9 2
-        thumb: 'thumbnails/zscaler-edu-102.jpg',
-        image: 'images/zscaler-edu-102.jpg',
-        altText: 'zscaler-edu-102',
-        verification: 'https://verify.skilljar.com/c/7rw64oqzc6na',
-        title: 'Fundamentals of Cybersecurity (EDU-102)',
-        provider: 'Zscaler',
-        providerLink: 'https://www.zscaler.com/zscaler-academy',
-        date: 'September 5th, 2024'
-    },
-    {
-        // 9 3
-        thumb: 'thumbnails/complete-js.jpg',
-        image: 'images/complete-js.jpg',
-        altText: 'udemy-complete-js',
-        verification: 'https://ude.my/UC-c6910a8c-d7ed-4a93-a45d-0132c4ef0c1b/',
-        title: 'Complete JAVASCRIPT with HTML5,CSS3 from zero to Expert-2024',
+        // 10 4
+        thumb: 'thumbnails/java-intro.jpg',
+        image: 'images/java-intro.jpg',
+        altText: 'udemy-java-intro',
+        verification: 'https://ude.my/UC-494ed70a-dc7e-46bf-ab2b-feb8700fb68c/',
+        title: 'Introduction to Java Programming',
         provider: 'Udemy',
         providerLink: 'https://www.udemy.com/',
         date: 'July 28th, 2023'
@@ -429,12 +462,12 @@ const certificates = [
         date: 'July 28th, 2023'
     },
     {
-        // 10 4
-        thumb: 'thumbnails/java-intro.jpg',
-        image: 'images/java-intro.jpg',
-        altText: 'udemy-java-intro',
-        verification: 'https://ude.my/UC-494ed70a-dc7e-46bf-ab2b-feb8700fb68c/',
-        title: 'Introduction to Java Programming',
+        // 9 3
+        thumb: 'thumbnails/complete-js.jpg',
+        image: 'images/complete-js.jpg',
+        altText: 'udemy-complete-js',
+        verification: 'https://ude.my/UC-c6910a8c-d7ed-4a93-a45d-0132c4ef0c1b/',
+        title: 'Complete JAVASCRIPT with HTML5,CSS3 from zero to Expert-2024',
         provider: 'Udemy',
         providerLink: 'https://www.udemy.com/',
         date: 'July 28th, 2023'
@@ -462,36 +495,14 @@ const certificates = [
         date: 'September 14th, 2024'
     },
     {
-        // 11 3
-        thumb: 'thumbnails/aicte_palo_alto.jpg',
-        image: 'images/aicte_palo_alto.jpg',
-        altText: 'aicte-palo-alto',
-        verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=06e6e7151881062102b0dbec9347524c',
-        title: 'Cybersecurity Virtual Internship',
-        provider: 'EduSkills - Google',
-        providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
-        date: 'Apr-June, 2024'
-    },
-    {
-        // 11 4
-        thumb: 'thumbnails/aicte_zscaler.jpg',
-        image: 'images/aicte_zscaler.jpg',
-        altText: 'aicte-zscaler',
-        verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=5ae3e758bbc375811d6bce9d06379fc9',
-        title: 'Zero Trust Cloud Security Virtual Internship',
-        provider: 'EduSkills - Google',
-        providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
-        date: 'July-September, 2023'
-    },
-    {
-        // 12 1
-        thumb: 'thumbnails/cisco_networking.jpg',
-        image: 'images/cisco_networking.jpg',
-        altText: 'CISCO_NETWORKING',
-        verification: 'https://www.credly.com/go/L6FZ9krL',
-        title: 'Networking Basics',
-        provider: 'CISCO Networking Academy',
-        providerLink: 'https://www.netacad.com/about-networking-academy',
-        date: 'October 13th, 2024'
-    }    
+        // 2 2
+        thumb: 'thumbnails/InternPe web_dev.png',
+        image: 'images/InternPe web_dev.png',
+        altText: 'InternPe',
+        verification: '#',
+        title: 'Web Development',
+        provider: 'InternPe',
+        providerLink: 'https://internpe.in/about.html',
+        date: 'Oct 16th - Nov 12th, 2023'
+    }
 ];
