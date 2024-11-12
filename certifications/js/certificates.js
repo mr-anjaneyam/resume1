@@ -3,7 +3,7 @@ const certificates = [
         // 1 1
         thumb: 'thumbnails/nptel_dsa.jpg',
         image: 'images/nptel_dsa.jpg',
-        altText: 'NPTEL_DSA',
+        altText: 'NPTEL_DSA_Python',
         verification: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS95S4570276210079882',
         title: 'Data Structures and Algorithms',
         provider: 'NPTEL',
@@ -14,7 +14,7 @@ const certificates = [
         // 1 2
         thumb: 'thumbnails/nptel_cp_ip.jpg',
         image: 'images/nptel_cp_ip.jpg',
-        altText: 'NPTEL_CPIP',
+        altText: 'NPTEL_ComputerNetworks',
         verification: 'https://nptel.ac.in/noc/E_Certificate/NPTEL24CS19S35740198230591343',
         title: 'Computer Networks and Internet Protocol',
         provider: 'NPTEL',
@@ -25,7 +25,7 @@ const certificates = [
         // 9 1
         thumb: 'thumbnails/zscaler-cyber-fundamentals.jpg',
         image: 'images/zscaler-cyber-fundamentals.jpg',
-        altText: 'zscaler-cyber-fundamentals',
+        altText: 'zscaler-cybersecurity-fundamentals',
         verification: 'https://verify.skilljar.com/c/6g57cwc8pajc',
         title: 'Zscaler Cybersecurity Fundamentals Associate Course',
         provider: 'Zscaler',
@@ -47,7 +47,7 @@ const certificates = [
         // 1 3
         thumb: 'thumbnails/cisco_python_essentials1.jpg',
         image: 'images/cisco_python_essentials1.jpg',
-        altText: 'CISCO_PE1',
+        altText: 'CISCO_PythonEssentials_1',
         verification: 'https://www.credly.com/go/fPXNeMAp',
         title: 'Python Essentials 1',
         provider: 'CISCO Networking Academy',
@@ -58,7 +58,7 @@ const certificates = [
         // 1 4
         thumb: 'thumbnails/cisco_python_essentials2.jpg',
         image: 'images/cisco_python_essentials2.jpg',
-        altText: 'CISCO_PE2',
+        altText: 'CISCO_PythonEssentials_2',
         verification: 'https://www.credly.com/go/y7eJZnLV',
         title: 'Python Essentials 2',
         provider: 'CISCO Networking Academy',
@@ -69,7 +69,7 @@ const certificates = [
         // 12 1
         thumb: 'thumbnails/cisco_networking.jpg',
         image: 'images/cisco_networking.jpg',
-        altText: 'CISCO_NETWORKING',
+        altText: 'CISCO_Networking_Basics',
         verification: 'https://www.credly.com/go/L6FZ9krL',
         title: 'Networking Basics',
         provider: 'CISCO Networking Academy',
@@ -80,7 +80,7 @@ const certificates = [
         // 8 1
         thumb: 'thumbnails/cisco_cyber.jpg',
         image: 'images/cisco_cyber.jpg',
-        altText: 'Cisco_cybersecurity',
+        altText: 'CISCO_Cybersecurity',
         verification: 'https://www.credly.com/go/J1oi0Sbu',
         title: 'Introduction to Cyber Security',
         provider: 'CISCO Networking Academy',
@@ -91,7 +91,7 @@ const certificates = [
         // 2 1
         thumb: 'thumbnails/android-developer.jpg',
         image: 'images/android-developer.jpg',
-        altText: 'AndroidDeveloper',
+        altText: 'EduSkills_AndroidDeveloper',
         verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=b074028e2fc6db61ba312fd96217f57b',
         title: 'Android Developer Virtual Internship',
         provider: 'EduSkills - Google',
@@ -102,10 +102,10 @@ const certificates = [
         // 11 3
         thumb: 'thumbnails/aicte_palo_alto.jpg',
         image: 'images/aicte_palo_alto.jpg',
-        altText: 'aicte-palo-alto',
+        altText: 'EduSkills_Palo_Alto',
         verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=06e6e7151881062102b0dbec9347524c',
         title: 'Cybersecurity Virtual Internship',
-        provider: 'EduSkills - Google',
+        provider: 'EduSkills - Palo Alto Networks',
         providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
         date: 'Apr-June, 2024'
     },
@@ -113,10 +113,10 @@ const certificates = [
         // 11 4
         thumb: 'thumbnails/aicte_zscaler.jpg',
         image: 'images/aicte_zscaler.jpg',
-        altText: 'aicte-zscaler',
+        altText: 'EduSkills_Zscaler',
         verification: 'https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=5ae3e758bbc375811d6bce9d06379fc9',
         title: 'Zero Trust Cloud Security Virtual Internship',
-        provider: 'EduSkills - Google',
+        provider: 'EduSkills - Zscaler',
         providerLink: 'https://eduskillsfoundation.org/index.php/about/#about-us',
         date: 'July-September, 2023'
     },
@@ -124,24 +124,13 @@ const certificates = [
         // 2 3
         thumb: 'thumbnails/google_analytics.jpg',
         image: 'images/google_analytics.jpg',
-        altText: 'Google Analytics',
+        altText: 'Google_Analytics',
         verification: 'https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification?sid=defef580-7629-47d4-b5ed-b9c8743a151e&sid_i=4',
         title: 'Google Analytics Certification',
         provider: 'Google Analytics Academy',
         providerLink: 'https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification?sid=defef580-7629-47d4-b5ed-b9c8743a151e&sid_i=4',
         date: 'May 8th, 2024'
     },
-    // {
-    //     // 2 2
-    //     thumb: 'thumbnails/InternPe web_dev.png',
-    //     image: 'images/InternPe web_dev.png',
-    //     altText: 'InternPe',
-    //     verification: '#',
-    //     title: 'Web Development',
-    //     provider: 'InternPe',
-    //     providerLink: 'https://internpe.in/about.html',
-    //     date: 'Oct 16th - Nov 12th, 2023'
-    // },
     {
         // 3 1
         thumb: 'thumbnails/TechnoHacks web_dev.png',
@@ -157,7 +146,7 @@ const certificates = [
         // 3 2
         thumb: 'thumbnails/TechnoHacks cs&eh.png',
         image: 'images/TechnoHacks cs&eh.png',
-        altText: 'TechnoHacks_cseh',
+        altText: 'TechnoHacks_cs_eh',
         verification: 'https://technohacks.co.in/',
         title: 'Cyber Security & Ethical Hacking',
         provider: 'TechnoHacks',
@@ -168,7 +157,7 @@ const certificates = [
         // 3 3
         thumb: 'thumbnails/Oasis_webdev.jpg',
         image: 'images/Oasis_webdev.jpg',
-        altText: 'Oasis_webdev',
+        altText: 'OasisInfobyte_webdev',
         verification: 'https://oasisinfobyte.com/validation/validated.html',
         title: 'Web Development',
         provider: 'Oasis Infobyte',
@@ -179,7 +168,7 @@ const certificates = [
         // 3 4
         thumb: 'thumbnails/codsoft_webdev.jpg',
         image: 'images/codsoft_webdev.jpg',
-        altText: 'codsoft_webdev',
+        altText: 'CodSoft_webdev',
         verification: 'https://codsoft.co.in/',
         title: 'Web Development',
         provider: 'CodSoft',
@@ -212,7 +201,7 @@ const certificates = [
         // 2 4
         thumb: 'thumbnails/wd101.jpg',
         image: 'images/wd101.jpg',
-        altText: 'wd101',
+        altText: 'pupilfirst_wd101',
         verification: 'https://www.pupilfirst.school/c/240307-5VA2QM',
         title: 'Web Development 101 - Getting Started with JavaScript',
         provider: 'pupilfirst',
@@ -223,7 +212,7 @@ const certificates = [
         // 5 4
         thumb: 'thumbnails/NSIC AWS.jpg',
         image: 'images/NSIC AWS.jpg',
-        altText: 'nsic_aws',
+        altText: 'NSIC_AWS',
         verification: '#',
         title: 'Amazon Web Services',
         provider: 'NSIC',
@@ -278,7 +267,7 @@ const certificates = [
         // 5 3
         thumb: 'thumbnails/devtown_py_ai.jpg',
         image: 'images/devtown_py_ai.jpg',
-        altText: 'devtown_py_ai',
+        altText: 'devtown_python_ai',
         verification: 'https://cert.devtown.in/verify/Zw3fge',
         title: 'Python and Artificial Intelligence',
         provider: 'DevTown',
@@ -322,7 +311,7 @@ const certificates = [
         // 6 4
         thumb: 'thumbnails/GL_Java.jpg',
         image: 'images/GL_Java.jpg',
-        altText: 'java_GL',
+        altText: 'GreatLearning_Java',
         verification: 'https://www.mygreatlearning.com/certificate/BJAGBFHO',
         title: 'Java Programming',
         provider: 'Great Learning',
@@ -333,7 +322,7 @@ const certificates = [
         // 7 1
         thumb: 'thumbnails/GL_DS_C.jpg',
         image: 'images/GL_DS_C.jpg',
-        altText: 'DS_in_C',
+        altText: 'GreatLearning_DS_in_C',
         verification: 'https://www.mygreatlearning.com/certificate/BNTOKNVZ',
         title: 'Data Structures in C',
         provider: 'Great Learning',
@@ -344,7 +333,7 @@ const certificates = [
         // 7 2
         thumb: 'thumbnails/GL_DSA_Java.jpg',
         image: 'images/GL_DSA_Java.jpg',
-        altText: 'dsa_java',
+        altText: 'GreatLearning_DS_in_Java',
         verification: 'https://www.mygreatlearning.com/certificate/INODXADO',
         title: 'Data Structures and Algorithms in Java',
         provider: 'Great Learning',
@@ -355,7 +344,7 @@ const certificates = [
         // 7 3
         thumb: 'thumbnails/GL_Oracle_SQL.jpg',
         image: 'images/GL_Oracle_SQL.jpg',
-        altText: 'oracle_sql',
+        altText: 'GreatLearning_Oracle_SQL',
         verification: 'https://www.mygreatlearning.com/certificate/DELEXEOB',
         title: 'Oracle SQL',
         provider: 'Great Learning',
@@ -366,7 +355,7 @@ const certificates = [
         // 7 4
         thumb: 'thumbnails/GL_HTML.jpg',
         image: 'images/GL_HTML.jpg',
-        altText: 'frontend_html',
+        altText: 'GreatLearning_HTML',
         verification: 'https://www.mygreatlearning.com/certificate/RKUYQPDF',
         title: 'Front End Development - HTML',
         provider: 'Great Learning',
@@ -410,7 +399,7 @@ const certificates = [
         // 10 4
         thumb: 'thumbnails/java-intro.jpg',
         image: 'images/java-intro.jpg',
-        altText: 'udemy-java-intro',
+        altText: 'udemy_java_introduction',
         verification: 'https://ude.my/UC-494ed70a-dc7e-46bf-ab2b-feb8700fb68c/',
         title: 'Introduction to Java Programming',
         provider: 'Udemy',
@@ -421,7 +410,7 @@ const certificates = [
         // 9 4
         thumb: 'thumbnails/html-beginner.jpg',
         image: 'images/html-beginner.jpg',
-        altText: 'udemy-html-beginner',
+        altText: 'udemy_html_beginner',
         verification: 'https://ude.my/UC-445d8a8a-064e-47d2-82d4-06c8435ec388/',
         title: 'Learn HTML - For Beginners',
         provider: 'Udemy',
@@ -432,7 +421,7 @@ const certificates = [
         // 10 1
         thumb: 'thumbnails/cpp-beginner.jpg',
         image: 'images/cpp-beginner.jpg',
-        altText: 'udemy-cpp-beginner',
+        altText: 'udemy_cpp_beginner',
         verification: 'https://ude.my/UC-91e3e0dd-4ddf-45b6-a1ee-dd927adab7b9/',
         title: 'The Ultimate C++ Beginner Course',
         provider: 'Udemy',
@@ -443,7 +432,7 @@ const certificates = [
         // 10 2
         thumb: 'thumbnails/cpp-training.jpg',
         image: 'images/cpp-training.jpg',
-        altText: 'udemy-cpp-training',
+        altText: 'udemy_cpp_training',
         verification: 'https://ude.my/UC-62628490-e3ef-4958-961e-e17de057876e/',
         title: 'C++ Complete Training Course for C++ Beginners',
         provider: 'Udemy',
@@ -454,7 +443,7 @@ const certificates = [
         // 10 3
         thumb: 'thumbnails/java-beginner.jpg',
         image: 'images/java-beginner.jpg',
-        altText: 'udemy-java-beginner',
+        altText: 'udemy_java_beginner',
         verification: 'https://ude.my/UC-c5d82376-c80d-4a5d-814f-b882e791be3a/',
         title: 'Java for Beginners - Learn all the Basics of Java',
         provider: 'Udemy',
@@ -464,8 +453,8 @@ const certificates = [
     {
         // 9 3
         thumb: 'thumbnails/complete-js.jpg',
-        image: 'images/complete-js.jpg',
-        altText: 'udemy-complete-js',
+        image: 'images/udemy_complete_js.jpg',
+        altText: 'udemy_complete_js',
         verification: 'https://ude.my/UC-c6910a8c-d7ed-4a93-a45d-0132c4ef0c1b/',
         title: 'Complete JAVASCRIPT with HTML5,CSS3 from zero to Expert-2024',
         provider: 'Udemy',
@@ -476,7 +465,7 @@ const certificates = [
         // 11 1
         thumb: 'thumbnails/python-oops.jpg',
         image: 'images/python-oops.jpg',
-        altText: 'udemy-python_OOPS',
+        altText: 'udemy_python_OOPS',
         verification: 'https://ude.my/UC-cf8db7b7-c35d-4116-9580-15451e198adc/',
         title: 'Python: Object Oriented Programming',
         provider: 'Udemy',
@@ -487,7 +476,7 @@ const certificates = [
         // 11 2
         thumb: 'thumbnails/photoshop.jpg',
         image: 'images/photoshop.jpg',
-        altText: 'udemy-photoshop',
+        altText: 'udemy_photoshop',
         verification: 'https://ude.my/UC-2733637d-fa30-4823-adb3-de88e429ceac/',
         title: 'Adobe Photoshop CC- Basic Photoshop training',
         provider: 'Udemy',
@@ -498,7 +487,7 @@ const certificates = [
         // 2 2
         thumb: 'thumbnails/InternPe web_dev.png',
         image: 'images/InternPe web_dev.png',
-        altText: 'InternPe',
+        altText: 'InternPe_webdev',
         verification: '#',
         title: 'Web Development',
         provider: 'InternPe',

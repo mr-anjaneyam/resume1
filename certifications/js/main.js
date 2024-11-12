@@ -185,7 +185,7 @@
 					<img src="${cert.thumb}" alt="${cert.altText}" class="img-responsive cert-thumbnail" draggable="false">
 				</figure>
 				<span class="fh5co-meta"><a href="${cert.providerLink}" target="_blank">${cert.provider}</a></span>
-				<h2 class="fh5co-article-title"><a href="${cert.verification}" target="_blank">${cert.title}</a></h2>
+				<h2 class="fh5co-article-title">${cert.title}</a></h2>
 				<span class="fh5co-meta fh5co-date">${cert.date}</span>
 			`;
 			
@@ -212,9 +212,13 @@
 		popupImage.src = cert.image;
 		verifyLink.href = cert.verification;
 		downloadBtn.onclick = () => {
-			window.open(cert.image, '_blank'); // Open image in new tab as download
+			const a = document.createElement('a');
+			a.href = cert.image;
+			a.download = cert.altText || 'certificate.jpg'; 
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
 		};
-	
 		// Display the popup
 		popupOverlay.style.display = 'flex';
 	}
