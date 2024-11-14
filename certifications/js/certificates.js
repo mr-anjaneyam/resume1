@@ -493,5 +493,27 @@ const certificates = [
         provider: 'InternPe',
         providerLink: 'https://internpe.in/about.html',
         date: 'Oct 16th - Nov 12th, 2023'
+    },
+    {
+        // 2 2
+        thumb: 'thumbnails/wipro_jfs.jpg',
+        image: 'images/wipro_jfs.png',
+        altText: 'Wipro_JavaFullStack',
+        verification: 'https://cert.diceid.com/cid/nuTM4rT8is',
+        title: 'Java Full Stack',
+        provider: 'Wipro TalentNext',
+        providerLink: 'https://talentnext.wipro.com/',
+        date: 'May - September, 2024'
+    },
+    {
+        // 2 2
+        thumb: 'thumbnails/Cognorise_ML.jpg',
+        image: 'images/Cognorise_ML.jpg',
+        altText: 'Cognorise_MachineLearning',
+        verification: '#',
+        title: 'Machine Learning',
+        provider: 'CognoRise Infotech',
+        providerLink: 'https://cognoriseinfotech.com/',
+        date: 'May 10th - June 10th, 2024'
     }
 ];
