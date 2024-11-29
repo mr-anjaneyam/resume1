@@ -51,7 +51,7 @@ const certificates = [
         verification: 'https://www.credly.com/go/fPXNeMAp',
         title: 'Python Essentials 1',
         provider: 'CISCO Networking Academy',
-        providerLink: 'https://www.netacad.com/about-networking-academy',
+        providerLink: 'https://www.netacad.com/courses/python-essentials-1',
         date: 'October 8th, 2023'
     },
     {
@@ -62,7 +62,7 @@ const certificates = [
         verification: 'https://www.credly.com/go/y7eJZnLV',
         title: 'Python Essentials 2',
         provider: 'CISCO Networking Academy',
-        providerLink: 'https://www.netacad.com/about-networking-academy',
+        providerLink: 'https://www.netacad.com/courses/python-essentials-2',
         date: 'Oct 9th, 2023'
     },
     {
@@ -73,7 +73,7 @@ const certificates = [
         verification: 'https://www.credly.com/go/L6FZ9krL',
         title: 'Networking Basics',
         provider: 'CISCO Networking Academy',
-        providerLink: 'https://www.netacad.com/about-networking-academy',
+        providerLink: 'https://www.netacad.com/courses/networking-basics',
         date: 'October 13th, 2024'
     },
     {
@@ -84,7 +84,7 @@ const certificates = [
         verification: 'https://www.credly.com/go/J1oi0Sbu',
         title: 'Introduction to Cyber Security',
         provider: 'CISCO Networking Academy',
-        providerLink: 'https://www.netacad.com/about-networking-academy',
+        providerLink: 'https://www.netacad.com/courses/introduction-to-cybersecurity',
         date: 'May 29th, 2024'
     },
     {
