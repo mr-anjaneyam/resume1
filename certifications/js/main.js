@@ -229,6 +229,13 @@
 		}
 	});
 	
+	document.addEventListener("keydown", function (e) {
+		if (e.key === "Escape") {
+			document.getElementById('popup-overlay').style.display = 'none';
+		}
+	});
+	
+	
 	// Document on load.
 	$(function(){
 
