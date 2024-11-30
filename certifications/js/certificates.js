@@ -493,5 +493,16 @@ const certificates = [
         provider: 'InternPe',
         providerLink: 'https://internpe.in/about.html',
         date: 'Oct 16th - Nov 12th, 2023'
+    },
+    {
+        // 2 2
+        thumb: 'thumbnails/AWS_Academy_Cloud_Architecting.jpg',
+        image: 'images/AWS_Academy_Cloud_Architecting.png',
+        altText: 'AWS_Academy_Cloud_Architecting',
+        verification: 'https://www.credly.com/go/f73Dcyes',
+        title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+        provider: 'AWS Academy',
+        providerLink: 'https://aws.amazon.com/training/awsacademy/',
+        date: 'November 30, 2024'
     }
 ];
