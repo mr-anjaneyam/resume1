@@ -495,17 +495,6 @@ const certificates = [
         date: 'Oct 16th - Nov 12th, 2023'
     },
     {
-        // 2 2
-        thumb: 'thumbnails/AWS_Academy_Cloud_Architecting.jpg',
-        image: 'images/AWS_Academy_Cloud_Architecting.png',
-        altText: 'AWS_Academy_Cloud_Architecting',
-        verification: 'https://www.credly.com/go/f73Dcyes',
-        title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
-        provider: 'AWS Academy',
-        providerLink: 'https://aws.amazon.com/training/awsacademy/',
-        date: 'November 30, 2024'
-    },
-    {
         // 2 3
         thumb: 'thumbnails/wipro_jfs.jpg',
         image: 'images/wipro_jfs.png',
@@ -515,6 +504,17 @@ const certificates = [
         provider: 'Wipro TalentNext',
         providerLink: 'https://talentnext.wipro.com/',
         date: 'May - September, 2024'
+    },
+    {
+        // 2 2
+        thumb: 'thumbnails/AWS_Academy_Cloud_Architecting.jpg',
+        image: 'images/AWS_Academy_Cloud_Architecting.png',
+        altText: 'AWS_Academy_Cloud_Architecting',
+        verification: 'https://www.credly.com/go/f73Dcyes',
+        title: 'AWS Academy Graduate - AWS Academy Cloud Architecting',
+        provider: 'AWS Academy',
+        providerLink: 'https://aws.amazon.com/training/awsacademy/',
+        date: 'November 30, 2024'
     },
     {
         // 2 2
