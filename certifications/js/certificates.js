@@ -540,8 +540,8 @@ const certificates = [
     },
     {
         // 2 2
-        thumb: 'thumbnails/growintern_webdev.jpg',
-        image: 'images/growintern_webdev.jpg',
+        thumb: 'thumbnails/growIntern_webdev.jpg',
+        image: 'images/growIntern_webdev.jpg',
         altText: 'GrowIntern',
         verification: '#',
         title: 'Basic Web Development',
