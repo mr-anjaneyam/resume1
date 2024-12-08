@@ -507,6 +507,17 @@ const certificates = [
     },
     {
         // 2 2
+        thumb: 'thumbnails/AWS_Academy_Cloud_Foundations.jpg',
+        image: 'images/AWS_Academy_Cloud_Foundations.jpg',
+        altText: 'AWS_Academy_Cloud_Foundations',
+        verification: 'https://www.credly.com/go/C3lkKJrC',
+        title: 'AWS Academy Graduate - AWS Academy Cloud Foundations',
+        provider: 'AWS Academy',
+        providerLink: 'https://aws.amazon.com/training/awsacademy/',
+        date: 'December 5, 2024'
+    },
+    {
+        // 2 2
         thumb: 'thumbnails/AWS_Academy_Cloud_Architecting.jpg',
         image: 'images/AWS_Academy_Cloud_Architecting.png',
         altText: 'AWS_Academy_Cloud_Architecting',
@@ -526,5 +537,27 @@ const certificates = [
         provider: 'CognoRise Infotech',
         providerLink: 'https://cognoriseinfotech.com/',
         date: 'May 10th - June 10th, 2024'
+    },
+    {
+        // 2 2
+        thumb: 'thumbnails/growintern_webdev.jpg',
+        image: 'images/growintern_webdev.jpg',
+        altText: 'GrowIntern',
+        verification: '#',
+        title: 'Basic Web Development',
+        provider: 'GrowIntern',
+        providerLink: 'https://growintern.in/',
+        date: 'Nov 5th - Dec 5th, 2024'
+    },
+    {
+        // 2 2
+        thumb: 'thumbnails/techoctanet_webdev.png',
+        image: 'images/techoctanet_webdev.png',
+        altText: 'Tech Octanet webdev',
+        verification: 'https://api.certifypro.in/page/qr-verification?id=07-2024-25391',
+        title: 'Web Development',
+        provider: 'Tech Octanet Services Pvt Ltd.',
+        providerLink: 'https://octanet.in/',
+        date: 'June 1st - July 1st, 2024'
     }
 ];
